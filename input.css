@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clock{
+  position: relative;
+  height: 50vh;
+  width: 50vh;
+  margin: auto;
+  background-image: url(clock.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hand{
+    transform-origin:bottom ;
+}
+.sec {
+    background-color: black;
+    height: 39%;
+    width: .5%;
+    border-radius: 88%;
+    position: absolute;
+    margin-left: 49.6%;
+    margin-top: 11%;
+    
+}
+.hour{
+    background-color: blue;
+    height:25%;
+    width: 2.5%;
+    position: absolute;
+    margin-left: 48.8%;
+    margin-top: 25%;
+    border-radius: 95%;
+    opacity: .65;
+    position: absolute;
+}
+.min {
+    background-color: red;
+    height: 35%;
+    width: 2%;
+    position: absolute;
+    margin-left: 49%;
+    margin-top: 16%;
+    border-radius: 94%;
+    position: absolute;
+    opacity: .75;
+}
+
